@@ -1,0 +1,24 @@
+html{
+	background-color: pink;
+}
+
+body{
+
+	
+}
+
+.firstparagraph{
+
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	padding:20px;
+}
+
+#intro{
+	background-color: yellow;
+	margin:40px;
+}
+
+#about{
+background-color: orange; 
+padding:30px;
+}
