@@ -1,0 +1,57 @@
+.container{
+	display: flex;
+
+}
+
+/*tell all the items to be 100% width*/
+.header, .maincontent, .footer, .sidebar-generic{
+	flex: 100%;
+
+} 
+
+@media all and (min-width:800px){
+	.sidebar-generic{
+	flex:1 auto;
+
+	}
+	.main-content{
+		flex:5 0px;
+
+	}
+	.sidebar-1{
+		order: 1;
+		background-color: pink;
+
+}
+	.main-content{
+		order: 2;
+
+	}
+
+	.sidebar-2{
+		order: 3;
+		background-color: grey;
+
+}
+	.footer{
+		order: 4;
+		background-color: red;
+
+	}
+
+	@media all and (max-width: 700px){
+		body{
+			background-color: black;
+		}
+	}
+
+	@media all and (max-width: 600px){
+		body{
+			background-color: green;
+		}
+	}
+	@media all and (max-width: 400px){
+		body{
+			background-color: yellow;
+		}
+	}
