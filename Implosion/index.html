@@ -2,13 +2,37 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+<head><!--
 <ul>
   <li><a href="find.html">About</a></li>
   <li><a href="know.html">More</a></li>
   <li><a href="what.html">Why</a></li>
   <li style="float:right"><a class="active" href="#about"></a></li>
-</ul>
+</ul>-->
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<h2>Fullscreen Overlay Nav Example</h2>
+<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+<p>In this example, the navigation menu will slide downwards from the top:</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
 <a href="https://www.google.com/patents/USD752555">
   <img src="amazon-dash3.gif" alt="funny" style="width:500px;height:400px;border:0;">
 </a>
