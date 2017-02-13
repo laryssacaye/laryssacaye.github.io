@@ -1,11 +1,11 @@
 html {
 	background-color: rgba(0,0,0,.5);
-	background-image: url("images/paten_1.jpg");
-	background-blend-mode: color-dodge;
+	background-image: url("images/amazon_google.jpg") no-repeat center fixed;
+    background-size: cover;
+	background width: 100%;
 	text-align:right;
 	font-family: "Helvetica", serif, serif, serif;
 	margin:400px;
-
 }
 
 body{
