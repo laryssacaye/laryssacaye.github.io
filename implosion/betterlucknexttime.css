@@ -3,9 +3,10 @@ html {
 }
 
 body{
-       background: url('images/amazon_google1.jpg') no-repeat center center fixed;
+       background: url('images/spinningwheel.jpg') no-repeat center center fixed;
        font-family: 'Megrim', cursive;
        color: #f2f2f2;
+       font-size: 200pt;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -16,10 +17,6 @@ div {
     height: 100%;
     visibility: initial;
 }
-
-mark {
-  background: #ff0000;
-]
 
 a.invisible
 {
